@@ -3042,7 +3042,10 @@ h6 {
     margin-right: 0px; }
   .social_widget .list li:hover a {
     color: #4BACC6; }
-
+    
+.social_widget i {
+  font-size: 1rem;
+}
 .copy_right_text {
   text-align: center;
   margin-top: 60px; }
