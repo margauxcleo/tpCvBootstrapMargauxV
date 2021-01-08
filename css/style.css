@@ -21,9 +21,10 @@ Theme modified by: Margaux Vitez
 
 /* Graphical charter */
 /* main blue = #4BACC6 */
-/* second blue (darker) = #448BAF */
-/* dark blue = #3C6997 */
-/* grey blue (fonts) = #556E85 */
+/* second blue (blue NCS) = #448BAF */
+/* dark blue (queen blue) = #3C6997 */
+/* grey blue = #556E85 [fonts] */
+/* darker grey (black coral) = #485C70 [navbar fixed; footer] */
 /* backgrounds colors (linear) = from dark blue to main blue */
 
 
@@ -247,7 +248,7 @@ button:focus {
     top: -70px;
     left: 0;
     right: 0;
-    background: #000;
+    background: #485C70;
     transform: translateY(70px);
     transition: transform 500ms ease, background 500ms ease;
     -webkit-transition: transform 500ms ease, background 500ms ease;
