@@ -2681,11 +2681,11 @@ h6 {
       .feature_area.feature_tow .feature_item:hover {
         background: #fff; }
   .feature_area.white_feature {
-    background: #fff; }
+    background: #f9f9ff; }
     .feature_area.white_feature .feature_item {
-      background: #f9f9ff; }
+      background: #fff; }
       .feature_area.white_feature .feature_item:hover {
-        background: #fff; }
+        background: #f9f9ff; }
 
 .feature_inner {
   margin-bottom: -30px; }
