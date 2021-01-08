@@ -350,6 +350,21 @@ button:focus {
         vertical-align: middle;
         align-self: center; }
 
+/*----------------------------------------------------*/
+/* Add of the jumbotron */
+.jumbotron_intro {
+  padding: 15px 5px;
+  margin-bottom: 0;
+  background-color: #4BACC6;
+
+}
+.jumbotron_intro h4 {
+  margin-bottom: 0px!important;
+  color: white!important;
+}
+
+/*----------------------------------------------------*/
+
 .blog_banner {
   min-height: 780px;
   position: relative;
