@@ -28,8 +28,6 @@ Theme modified by: Margaux Vitez
 /* light grey #CDD6DF [social icons] */
 /* backgrounds colors (linear) = from dark blue to main blue */
 
-
-
 /*=====================================================================
 @Default Styles
 
@@ -229,7 +227,7 @@ button:focus {
             .header_area .navbar .nav .nav-item.submenu ul .nav-item:last-child {
               border-bottom: none; }
             .header_area .navbar .nav .nav-item.submenu ul .nav-item:hover .nav-link {
-              background: #766dff;
+              background: #4BACC6;
               color: #fff; }
         @media (min-width: 992px) {
           .header_area .navbar .nav .nav-item.submenu:hover ul {
