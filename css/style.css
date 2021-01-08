@@ -2700,10 +2700,10 @@ h6 {
     .feature_item i:before {
       margin-left: 0px;
       font-size: 60px;
-      color: #e1e1e1;
+      color: #CDD6DF;
       line-height: 60px; }
   .feature_item h4 {
-    color: #222222;
+    color: #384757;
     font-size: 21px;
     font-family: "Heebo", sans-serif;
     font-weight: bold;
@@ -2719,7 +2719,7 @@ h6 {
     border-color: #fff;
     background: #fff; }
     .feature_item:hover i:before {
-      background: linear-gradient(to right, #8490ff 0%, #62bdfc 70%);
+      background: linear-gradient(to right, #3C6997 0%, #4BACC6 70%);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent; }
 
