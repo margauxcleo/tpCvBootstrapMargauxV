@@ -94,7 +94,7 @@
         margin-bottom: 23px;
     }
 	.header_area .navbar {
-		background: #000;
+		background: #485C70;
 	}
     .navbar-toggler[aria-expanded="false"] span:nth-child(2) {
 		opacity: 1;
@@ -139,7 +139,7 @@
         line-height: 40px;
         margin-right: 0px;
         display: block;
-		border-bottom: 1px solid #ededed33;
+		border-bottom: 1px solid #485C70;
 		border-radius: 0px;
     }
 	.header_area.navbar_fixed .main_menu .navbar .nav .nav-item .nav-link {
