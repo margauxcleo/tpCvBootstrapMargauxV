@@ -3010,6 +3010,21 @@ h6 {
     cursor: pointer;
     color: #fff; }
 
+/*----------------------------------------------------*/
+/* Add of the modal */
+
+.btn_modal {
+  font-size: 14px;
+}
+.modalForDate {
+  color: #485C70;
+}
+#modal_date p, #modal_date h4 {
+  color: #485C70;
+}
+/*----------------------------------------------------*/
+
+
 .social_widget p {
   font-size: 14px;
   line-height: 24px;
