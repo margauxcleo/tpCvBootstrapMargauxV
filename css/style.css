@@ -350,6 +350,21 @@ button:focus {
         vertical-align: middle;
         align-self: center; }
 
+/*----------------------------------------------------*/
+/* Add of the jumbotron */
+.jumbotron_intro {
+  padding: 15px 5px;
+  margin-bottom: 0;
+  background-color: #4BACC6;
+
+}
+.jumbotron_intro h4 {
+  margin-bottom: 0px!important;
+  color: white!important;
+}
+
+/*----------------------------------------------------*/
+
 .blog_banner {
   min-height: 780px;
   position: relative;
@@ -2761,7 +2776,7 @@ h6 {
       top: 50%;
       transform: translateY(-50%);
       font-size: 20px;
-      color: #766dff; }
+      color: #448BAF; }
   .personal_text .basic_info li:last-child {
     margin-bottom: 0px; }
 .personal_text .personal_social {
@@ -2995,6 +3010,21 @@ h6 {
     cursor: pointer;
     color: #fff; }
 
+/*----------------------------------------------------*/
+/* Add of the modal */
+
+.btn_modal {
+  font-size: 14px;
+}
+.modalForDate {
+  color: #485C70;
+}
+#modal_date p, #modal_date h4 {
+  color: #485C70;
+}
+/*----------------------------------------------------*/
+
+
 .social_widget p {
   font-size: 14px;
   line-height: 24px;
@@ -3011,8 +3041,11 @@ h6 {
   .social_widget .list li:last-child {
     margin-right: 0px; }
   .social_widget .list li:hover a {
-    color: #766dff; }
-
+    color: #4BACC6; }
+    
+.social_widget i {
+  font-size: 1rem;
+}
 .copy_right_text {
   text-align: center;
   margin-top: 60px; }

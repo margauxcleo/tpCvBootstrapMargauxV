@@ -203,7 +203,26 @@
 			fixedContentPos: false
 		});
 	}); 
-	
+    
+    /*----------------------------------------------------*/
+    /*  Footer - Modal for date
+    /*----------------------------------------------------*/
+
+    var today = new Date();
+    var day = today.getDay();
+    var daylist = ["dimanche", "lundi", "mardi", "mercredi", "jeudi", "vendredi", "samedi"];
+    let month = today.getMonth();
+    let monthlist = ["décembre", "janvier", "février", "mars", "avril", "mai", "juin", "juillet", "août", "septembre", "octobre", "novembre"];
+    let year = today.getFullYear();
+    var hour = today.getHours();
+    var minute = today.getMinutes();
+    var second = today.getSeconds();
+    // var prepand = (hour >= 12) ? " PM " : " AM ";
+    console.log("Aujourd'hui, nous sommes " + daylist[day] + ", et il est " + hour + "h" + minute
+    + "m" + second + "s");
+
+    $('#modal_date').html('<p> Nous sommes le ' + daylist[day] + ' ' + day + ' ' + monthlist[month] + ', et il est ' + hour + "h" + minute + "m" + second + "s </p>");
+    
 	/*----------------------------------------------------*/
     /*  Google map js
     /*----------------------------------------------------*/
