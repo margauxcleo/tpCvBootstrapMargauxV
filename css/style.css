@@ -25,6 +25,7 @@ Theme modified by: Margaux Vitez
 /* dark blue (queen blue) = #3C6997 */
 /* grey blue = #556E85 [fonts] */
 /* darker grey (black coral) = #485C70 [navbar fixed; footer] */
+/* light grey #CDD6DF [social icons] */
 /* backgrounds colors (linear) = from dark blue to main blue */
 
 
@@ -2768,7 +2769,7 @@ h6 {
     .personal_text .personal_social li a {
       line-height: 40px;
       width: 40px;
-      background: #e8e8e8;
+      background: #CDD6DF;
       border-radius: 5px;
       display: inline-block;
       text-align: center;
@@ -2913,7 +2914,7 @@ h6 {
 /* Footer Area css
 ============================================================================================ */
 .footer_area {
-  background: #000; }
+  background: #485C70; }
 
 .f_title {
   margin-bottom: 35px; }
@@ -2928,10 +2929,10 @@ h6 {
   font-size: 14px;
   line-height: 24px;
   font-family: "Roboto", sans-serif;
-  color: #777777;
+  color: #CDD6DF;
   margin-bottom: 30px; }
   .ab_widget p a {
-    color: #766dff; }
+    color: #CDD6DF; }
   .ab_widget p + p {
     margin-bottom: 0px; }
 
